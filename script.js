@@ -260,7 +260,7 @@ const consent = {
     <p>Dear participant,</p>
     <p>We are researchers from the Université Catholique de Louvain (Belgium) and Aix-Marseille Université (France).</p>
     <p>We are conducting a research study to examine features related to people’s judgment of statements. Participation in this study will involve completing a computer-based task involving images and text, followed by a short survey.</p>
-    <p>Your involvement will require about 8 minutes. You will receive £ 1.40 GBP in exchange for your participation. To participate, you need to use a computer.</p>
+    <p>Your involvement will require about 8 minutes. You will receive £ 1.20 GBP in exchange for your participation. To participate, you need to use a computer.</p>
     <p>There are no known or anticipated risks to you for participating. Please note, however, that some of the information you read or view may elicit temporary discomfort (for instance, you may experience temporary discomfort if presented with images of insects).</p>
     <p>Although this study will not benefit you personally, we hope that our results will add to the knowledge about psychology.</p>
     <p>The researcher will not know your name, and no identifying information will be connected to your survey answers in any way. The survey is therefore anonymous.</p>
