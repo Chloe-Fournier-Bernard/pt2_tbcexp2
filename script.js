@@ -222,8 +222,9 @@ all_trivia.forEach(stim => {
         trivia: stim.text,
         valence: stim.valence,
         image: randomImage.imagename,
-        repetition: r + 1
-      }
+        repetition: r + 1,
+        pairing: `${stim.truth}_${stim.valence}`
+        }
     });
   }
 });
@@ -431,7 +432,13 @@ let judgment_trials = all_trivia.map(stim => ({
     }
   ],
   post_trial_gap: 500,
-  data: { phase: "judgment", truth: stim.truth, trivia: stim.text },
+  data: { 
+  phase: "judgment", 
+  truth: stim.truth, 
+  trivia: stim.text, 
+  valence: stim.valence, 
+  pairing: `${stim.truth}_${stim.valence}`
+  },
   on_finish: function(data) {
     const respObj = data.response;
     if (respObj && typeof respObj === "object") {
